@@ -1,0 +1,14 @@
+# goal
+action_interface/JointTrajectory trajectory
+---
+# result
+int32 ERROR_OK = 0
+int32 ERROR_INVALID_GOAL = 1
+int32 ERROR_EXECUTION_FAILED = 2
+int32 error_code
+string error_string
+---
+# feedback
+float64 has_run_for_seconds
+action_interface/JointTrajectoryPoint desired
+action_interface/JointTrajectoryPoint actual

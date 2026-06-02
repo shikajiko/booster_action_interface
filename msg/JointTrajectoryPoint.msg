@@ -1,0 +1,3 @@
+float64[] positions
+float64 duration_seconds
+float64 delay_before_seconds
