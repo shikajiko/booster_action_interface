@@ -1,5 +1,5 @@
 # goal
-action_interface/JointTrajectory trajectory
+booster_action_interface/JointTrajectory trajectory
 ---
 # result
 int32 ERROR_OK = 0
@@ -10,5 +10,5 @@ string error_string
 ---
 # feedback
 float64 has_run_for_seconds
-action_interface/JointTrajectoryPoint desired
-action_interface/JointTrajectoryPoint actual
+booster_action_interface/JointTrajectoryPoint desired
+booster_action_interface/JointTrajectoryPoint actual

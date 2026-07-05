@@ -19,8 +19,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RunAction.msg"
   "action/ActionTrajectory.action"
   "srv/GetActions.srv"
-  "srv/SaveActions.srv")
-)
+  "srv/SaveActions.srv"
+  )
+
 
 ament_export_dependencies(rosidl_default_runtime)
 
